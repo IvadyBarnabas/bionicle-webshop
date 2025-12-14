@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,94 +8,111 @@
 </head>
 <body>
     <header>
-        <h1>Bio-Shop</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>BIO-SHOP</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="">Termékeink</a></li>
+            <li><a href="">Bio Érdekességek</a></li>
+            <li><a href="">Rólnuk</a></li>
+        </ul>
+    </nav>
     <main>
         <article>
-            <section>
-                <h2>Welcome to Bio-Shop</h2>
-                <p>Your one-stop shop for all things Lego Bionicle! Explore our wide range of Bionicle sets and accessories.</p>
-            </section>
-        </article>
-        <article>
-            <section>
-                <h2>Products:</h2>
                 <div class="cards">
                     <div class="card">
                         <a href="">
                             <img src="kepek/tahu.png" alt="tahu">
                             <h2>Toa Mata Tahu</h2>
-                            <button>
-                                Buy Now
-                            </button>  
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p> 
+                        </div>  
                     </div>
                     <div class="card">
                         <a href="">
                             <img src="kepek/gali.png" alt="gali">
                             <h2>Toa Mata Gali</h2>
-                            <button>
-                                Buy Now
-                            </button>   
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p> 
+                        </div>    
                     </div>
                     <div class="card">
                         <a href="">
                             <img src="kepek/kopaka.png" alt="kopaka">
                             <h2>Toa Mata Kopaka</h2>
-                            <button>
-                                Buy Now
-                            </button>   
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p>  
+                        </div>   
                     </div>
                     <div class="card">
                         <a href="">
                             <img src="kepek/pohatu.png" alt="pohatu">
                             <h2>Toa Mata Pohatu</h2>
-                            <button>
-                                Buy Now
-                            </button>   
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p> 
+                        </div>   
                     </div>
                     <div class="card">
                         <a href="">
                             <img src="kepek/lewa.png" alt="lewa">
                             <h2>Toa Mata Lewa</h2>
-                            <button>
-                                Buy Now
-                            </button>   
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p>  
+                        </div>   
                     </div>
                     <div class="card">
                         <a href="">
                             <img src="kepek/onua.png" alt="onua">
                             <h2>Toa Mata Onua</h2>
-                            <button>
-                                Buy Now
-                            </button>   
                         </a>
+                        <div class="info">
+                            <button>
+                                Kosárba
+                            </button>
+                            <p class="price">5000 Ft</p>  
+                        </div>  
                     </div>
                 </div>
-            </section>
         </article>
-        <article>
-            <section>
-                <h2>About Us</h2>
-                <p>We are a small business dedicated to providing high-quality Lego Bionicle toys to enthusiasts and collectors. Our mission is to bring joy and nostalgia to our customers through our carefully curated selection of products.</p>
-            </section>
-        </article>
+        <aside>
+            <div class="kosar">
+                <h2>A Kosár tartalma</h2>
+                <ul>
+                    <li>Toa Mata Tahu 5000 Ft</li>
+                    <li>Toa Mata Lewa 5000 Ft</li>
+                    <li>Toa Mata Pohatu 5000 Ft</li>
+                </ul>
+                <button id="clear-cart">Kosár ürítése</button>
+                <p class="total-price">Összesen: 0 Ft</p>
+                <button>Tovább a fizetéshez...</button>
+
+            </div>
+        </aside>
         
     </main>
         <footer>
-            <p>&copy; 2024 Bio-Shop. All rights reserved.</p>
+            <h2>Ivády Barnabás</h2>
         </footer>
 </body>
 </html>
