@@ -8,7 +8,6 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-
 }
 header {
     background: url('kepek/header2.png');
@@ -30,12 +29,12 @@ nav{
     margin-bottom: 10px;
 }
 nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    justify-content: center;
     list-style: none;
-    padding: 0;
-    text-align: center;
 }
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 nav ul li a {
@@ -165,6 +164,18 @@ footer p{
     }
     aside{
         max-width: 100%;
+        margin: 10px;
+    }
+}
+@media (max-width: 600px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    .info{
+        grid-template-columns: 1fr;
+    }
+    .cards{
+        gap: 10px;
         margin: 10px;
     }
 }
